@@ -1,0 +1,72 @@
+.sobre {
+	background-color: var(--preto);
+	color: var(--branco);
+	font-family: var(--mont);
+	font-size: .9em;
+	min-height: 50vh;
+
+	display: flex;
+	flex-direction: column;
+
+	align-items: center;
+	justify-content: center;
+}
+
+
+.sobre__container {
+	margin: 0 auto;
+	width: 80%;
+}
+
+.sobre__container .sobre__titulo {
+	color: var(--branco);
+	text-align: left;
+}
+
+.sobre__titulo {
+	font-size: 1.em;
+	padding-bottom: 50px;
+}
+
+.sobre__texto {
+	font-size: 1em;
+	line-height: 1.4;
+	padding-bottom: 15px;
+}
+
+.assinatura {
+	font-family: var(--hurri);
+	font-size: 1.9em;
+	font-weight: bold;
+	padding-top: 30px;
+	padding-bottom: 40px;
+}
+
+
+/* --- Tablet --- */
+@media screen and (min-width: 768px) {
+	.sobre__container {
+		margin: 0 auto;
+		max-width: 900px;
+	}
+
+	.sobre__texto {
+		font-size: 1.05em;
+	}
+
+	.assinatura {
+		font-size: 1.8em;
+	}
+}
+
+/* --- Desktop --- */
+@media screen and (min-width: 1200px) {
+	.sobre__container {
+		margin-left: 15%;
+		width: 1150px;
+	}
+
+	.sobre {
+		height: 51vh;
+	}
+}
