@@ -25,11 +25,15 @@
 
 .experiencias__card img {
 	width: 100%;
+	box-shadow: 0 0 10px #9b9b9b;
 }
 
 .experiencia__cards__botoes {
 	margin-bottom: 20px;
 	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
 
 /* --- Tablet --- */
@@ -47,7 +51,11 @@
 	.experiencias__card__imagem {
 		height: 100%;
 		padding: 0;
-		width: 40%;
+		width: 70%;
+	}
+
+	.experiencias__card_info {
+		width: 25%;
 	}
 }
 
@@ -62,6 +70,10 @@
 	.experiencias__card__imagem {
 		height: 100%;
 		padding: 0;
-		width: 70%;
+		width: 65%;
+	}
+
+	.experiencias__card_info {
+		width: 30%;
 	}
 }
